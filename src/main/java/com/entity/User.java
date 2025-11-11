@@ -2,7 +2,10 @@ package com.entity;
 
 public class User {
 
-	
+	private int id;
+	private String full_name;
+	private String email;
+	private String password;
 	
 	
 	public User() {
@@ -15,10 +18,7 @@ public class User {
 		this.email = email;
 		this.password = password;
 	}
-	private int id;
-	private String full_name;
-	private String email;
-	private String password;
+
 	public int getId() {
 		return id;
 	}
